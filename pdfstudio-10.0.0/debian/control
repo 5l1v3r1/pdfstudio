@@ -1,0 +1,9 @@
+Source: pdfstudio
+Section: doc
+Priority: optional
+Maintainer: Jesse Spangenberger <azulephoenix@gmail.com>
+Standards-version: 10.0.0
+Homepage: https://www.qoppa.com/pdfstudio
+
+Package: pdfstudio
+Architecture: amd64

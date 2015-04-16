@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root Language="it">
+	<WatermarkList>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16763905" Text="PAID" Border="Nessun bordo"
+			BgndColor="-1" Name="PAID" LocationUnits="Pollici"
+			LocationYFrom="Dal centro" LocationXFrom="Dal centro" PageChoice="Tutte le pagine"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16777216" Text="CONFIDENZIALE" Border="Nessun bordo"
+			BgndColor="-1" Name="CONFIDENZIALE" LocationUnits="Pollici"
+			LocationYFrom="Dal centro" LocationXFrom="Dal centro" PageChoice="Tutte le pagine"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+	</WatermarkList>
+	<HeaderFooterList>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="1.0" HeaderLeft="" Border="Nessun bordo"
+			HeaderRight="" Name="Numerazione Bates Intestazione" BgndColor="-256"
+			Left="1.0" UseBgnd="false" FooterRight="" PageChoice="Solo pagine dispari"
+			MarginUnits="Pollici" FgndColor="-16776961"
+			HeaderCenter="$bates&lt;&lt;6,2,&quot;Prefix-&quot;,&quot;-Suffix&quot;&gt;&gt;"
+			Bottom="0.5" Top="0.5" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="1.0" HeaderLeft="" Border="Nessun bordo"
+			HeaderRight="$date&lt;&lt;MM/dd/yyyy&gt;&gt;" Name="Data Intestazione"
+			BgndColor="-256" Left="1.0" UseBgnd="false" FooterRight=""
+			PageChoice="Tutte le pagine" MarginUnits="Pollici" FgndColor="-16776961"
+			HeaderCenter="" Bottom="0.5" Top="0.5" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="Pagina $page di $totalpages" Right="1.0" HeaderLeft=""
+			Border="Nessun bordo" HeaderRight="" Name="Numero di pagina Piè di pagina"
+			BgndColor="-256" Left="1.0" UseBgnd="false" FooterRight=""
+			PageChoice="Tutte le pagine" MarginUnits="Pollici" FgndColor="-16776961"
+			HeaderCenter="" Bottom="0.5" Top="0.5" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+	</HeaderFooterList>
+</root>

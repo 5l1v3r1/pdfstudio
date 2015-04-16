@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root Language="es">
+	<WatermarkList>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16777216" Text="CONFIDENCIAL" Border="Sin Borde"
+			BgndColor="-1" Name="CONFIDENCIAL" LocationUnits="Centímetros"
+			LocationYFrom="Del Centro" LocationXFrom="Del Centro" PageChoice="Todas"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16763905" Text="Pago" Border="Sin Borde"
+			BgndColor="-1" Name="Pago" LocationUnits="Centímetros"
+			LocationYFrom="Del Centro" LocationXFrom="Del Centro" PageChoice="Todas"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+	</WatermarkList>
+	<HeaderFooterList>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="2.0" HeaderLeft="" Border="Sin Borde"
+			HeaderRight="$date&lt;&lt;dd/MM/yyyy&gt;&gt;" Name="Fecha Encabezado"
+			BgndColor="-256" Left="2.0" UseBgnd="false" FooterRight=""
+			PageChoice="Todas" MarginUnits="Centímetros" FgndColor="-16776961"
+			HeaderCenter="" Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="2.0" HeaderLeft="" Border="Sin Borde"
+			HeaderRight="" Name="Numeración Bates Encabezado" BgndColor="-256"
+			Left="2.0" UseBgnd="false" FooterRight="" PageChoice="Todas"
+			MarginUnits="Centímetros" FgndColor="-16776961"
+			HeaderCenter="$bates&lt;&lt;6,2,&quot;Prefijo-&quot;,&quot;-Sufijo&quot;&gt;&gt;"
+			Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="Página  $page de $totalpages" Right="2.0" HeaderLeft=""
+			Border="Sin Borde" HeaderRight="" Name="Número de Página Pie"
+			BgndColor="-256" Left="2.0" UseBgnd="false" FooterRight=""
+			PageChoice="Todas" MarginUnits="Centímetros" FgndColor="-16776961"
+			HeaderCenter="" Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+	</HeaderFooterList>
+</root>

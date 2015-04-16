@@ -1,0 +1,10 @@
+#!/bin/sh
+I4J_INSTALL_LOCATION="/opt/pdfstudio10"
+cd "$I4J_INSTALL_LOCATION"
+
+rm "/usr/local/bin/pdfstudio10" 2>/dev/null
+rm "$I4J_INSTALL_LOCATION/pdfstudio10.desktop"
+rm "/usr/local/bin/updater" 2>/dev/null
+rm "/usr/local/bin/pdfstudiosu" 2>/dev/null
+rm -Rf "$I4J_INSTALL_LOCATION/jre/lib"
+exit 0

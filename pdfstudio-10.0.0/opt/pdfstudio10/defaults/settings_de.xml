@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root Language="de">
+	<WatermarkList>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16763905" Text="Bezahlt" Border="Keine Begrenzung"
+			BgndColor="-1" Name="Bezahlt" LocationUnits="Zentimeter"
+			LocationYFrom="Von der Mitte" LocationXFrom="Von der Mitte" PageChoice="Alle"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+		<Text Angle="315" UseBgnd="false" Justification="Left" PageTo="9999"
+			PageFrom="1" FgndColor="-16777216" Text="VERTRAULICH" Border="Keine Begrenzung"
+			BgndColor="-1" Name="VERTRAULICH" LocationUnits="Zentimeter"
+			LocationYFrom="Von der Mitte" LocationXFrom="Von der Mitte" PageChoice="Alle"
+			LocationY="0.0" ShowOnMenu="true" LocationX="0.0">
+			<Font Style="0" Size="48.0" FontName="Times-Roman" />
+		</Text>
+	</WatermarkList>
+	<HeaderFooterList>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="2.0" HeaderLeft="" Border="Keine Begrenzung"
+			HeaderRight="" Name="Bates-Nummer als Kopfzeile" BgndColor="-256" Left="2.0"
+			UseBgnd="false" FooterRight="" PageChoice="Alle" MarginUnits="Zentimeter"
+			FgndColor="-16776961"
+			HeaderCenter="$bates&lt;&lt;6,2,&quot;Präfix-&quot;,&quot;-Suffix&quot;&gt;&gt;"
+			Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="" Right="2.0" HeaderLeft="" Border="Keine Begrenzung"
+			HeaderRight="$date&lt;&lt;dd/MM/yyyy&gt;&gt;" Name="Datum als Kopfzeile"
+			BgndColor="-256" Left="2.0" UseBgnd="false" FooterRight=""
+			PageChoice="Alle" MarginUnits="Zentimeter" FgndColor="-16776961"
+			HeaderCenter="" Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+		<HeaderFooter PageFrom="1" Angle="0" FooterLeft=""
+			FooterCenter="Seite $page von $totalpages" Right="2.0" HeaderLeft=""
+			Border="Keine Begrenzung" HeaderRight="" Name="Seitenzahl als Fußzeile"
+			BgndColor="-256" Left="2.0" UseBgnd="false" FooterRight=""
+			PageChoice="Alle" MarginUnits="Zentimeter" FgndColor="-16776961"
+			HeaderCenter="" Bottom="1.2" Top="1.2" ShowOnMenu="true" PageTo="1">
+			<Font Style="0" Size="18.0" FontName="Helvetica" />
+		</HeaderFooter>
+	</HeaderFooterList>
+</root>
